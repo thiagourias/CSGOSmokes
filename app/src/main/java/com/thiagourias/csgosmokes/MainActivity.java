@@ -20,4 +20,16 @@ public class MainActivity extends AppCompatActivity {
     public void abrirTick128(View view){
         startActivity(new Intent(getBaseContext(), tick128home.class));
     }
+
+    public void paginatick(View view){
+        startActivity(new Intent(getBaseContext(), paginaTick.class));
+    }
+
+    public void creditos(View view){
+        startActivity(new Intent(getBaseContext(), creditos.class));
+    }
+
+    public void doacoes(View view){
+        startActivity(new Intent(getBaseContext(), doacoes.class));
+    }
 }

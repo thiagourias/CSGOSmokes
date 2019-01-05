@@ -14,9 +14,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="88dp"
-        android:layout_marginLeft="88dp"
-        android:layout_marginTop="78dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="104dp"
         android:text="@string/label_home"
         android:textSize="36sp"
         android:typeface="sans"
@@ -50,7 +50,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="71dp"
         android:layout_marginLeft="71dp"
-        android:layout_marginTop="234dp"
+        android:layout_marginTop="237dp"
         android:background="#f58634"
         android:onClick="abrirTick128"
         android:text="@string/btn_128"
@@ -63,5 +63,42 @@
         android:layout_height="wrap_content"
         app:barrierDirection="top"
         tools:layout_editor_absoluteY="511dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="120dp"
+        android:onClick="paginatick"
+        android:text="@string/label_tick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="191dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/label_donate"
+        android:onClick="doacoes"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="192dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/btn64"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-59dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/label_creditos"
+        android:onClick="creditos"/>
 
 </RelativeLayout>

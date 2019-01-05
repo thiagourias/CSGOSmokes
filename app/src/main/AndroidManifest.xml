@@ -26,6 +26,18 @@
         <activity android:name=".tick128home" android:label="@string/label_tick128">
             
         </activity>
+
+        <activity android:name=".paginaTick" android:label="@string/label_tick">
+
+        </activity>
+
+        <activity android:name=".creditos" android:label="@string/label_creditos">
+
+        </activity>
+
+        <activity android:name=".doacoes" android:label="@string/label_donate">
+
+        </activity>
     </application>
 
 </manifest>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CS:GO Smokes</string>
+    <string name="label_home">CS:GO Smokes</string>
+    <string name="btn_64">Tick 64</string>
+    <string name="btn_128">Tick 128</string>
+    <string name="label_tick64">Smokes Tick 64</string>
+    <string name="label_tick128">Smokes Tick 128</string>
 </resources>

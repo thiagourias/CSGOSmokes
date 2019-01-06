@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,24 +20,29 @@
         </activity>
 
 
-        <activity android:name=".tick64home" android:label="@string/label_tick64" >
+        <activity android:name=".tick64home" android:label="@string/label_tick64"
+            android:screenOrientation="portrait">
 
 
         </activity>
 
-        <activity android:name=".tick128home" android:label="@string/label_tick128">
+        <activity android:name=".tick128home" android:label="@string/label_tick128"
+            android:screenOrientation="portrait">
             
         </activity>
 
-        <activity android:name=".paginaTick" android:label="@string/label_tick">
+        <activity android:name=".paginaTick" android:label="@string/label_tick"
+            android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".creditos" android:label="@string/label_creditos">
+        <activity android:name=".creditos" android:label="@string/label_creditos"
+            android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".doacoes" android:label="@string/label_donate">
+        <activity android:name=".doacoes" android:label="@string/label_donate"
+            android:screenOrientation="portrait">
 
         </activity>
     </application>

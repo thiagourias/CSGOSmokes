@@ -1,6 +1,7 @@
 package com.thiagourias.csgosmokes;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,4 +33,5 @@ public class MainActivity extends AppCompatActivity {
     public void doacoes(View view){
         startActivity(new Intent(getBaseContext(), doacoes.class));
     }
+
 }

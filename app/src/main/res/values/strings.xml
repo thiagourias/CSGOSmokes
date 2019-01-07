@@ -13,4 +13,58 @@
     <string name="label_created">Aplicativo criado por: Thiago thg Urias</string>
     <string name="label_art">Ícone criado por: Gabriel gdk Godoy</string>
     <string name="label_videos">Vídeos criados por: Thiago thg Urias e Gabriel gdk Godoy</string>
+    <string name="label_tick_1">
+        Tick rate é a frequência com que o servidor atualiza o estado do jogo. Quando um servidor
+        tem um tick rate de 64 significa que ele é capaz de mandar pacotes aos clientes no máximo
+        64 vezes por segundo, contendo atualizações do estado do jogo, posição dos jogadores,
+        objetos e etc.
+    </string>
+    <string name="label_tick_2">
+        Fazendo um comparativo rápido, o tick é igual ao FPS que roda no seu jogo. Só que os
+        jogadoresusam FPS, e o servidor usa o TICK. É como se o servidor rodasse o jogo a 64fps,
+        ou seja, 64 frames a cada segundo.
+    </string>
+    <string name="label_tick_3">
+        Você já teve a impressão de ter acertado um tiro, mas ele sequer deu dano no inimigo? Então,
+        isso acontece porque o tiro acertou o alvo enquanto ele estava na “falha” entre uma
+        atualizaçãoe outra, em outras palavras, você acertou o tiro na sua tela, mas o servidor não
+        contabilizou, pois para o ele o alvo não estava naquela posição.
+    </string>
+    <string name="label_tick_4">
+       O contrário também pode ocorrer, já aconteceu de você morrer para aquele awper, mas na sua
+        tela você já estava atrás da parede? Isso pode ter sido o tick rate. Confira algumas imagens.
+    </string>
+    <string name="label_tick_5">
+        Oras, e o que isso tem a ver com as smokes?
+    </string>
+    <string name="label_tick_6">
+        O resultado PODE ser diferente em smokes onde é necessario andar e jogar, pois em servidores
+        com tickrate 64 atualizam a posição do seu boneco 64 vezes por segundo, e servidores tickrate
+        128 atualizam a posição do seu boneco 128 vezes por segundo, ou seja, o momento que você jogou
+        a granada em um servidor 128 não é o mesmo que em um servidor 64.
+    </string>
+    <string name="label_tick_7">
+        Como saberei se o servidor que eu jogo é 64 ou 128?
+    </string>
+    <string name="label_tick_8">
+        Todos os servidores disponibilizados pela valve são tick 64, seja mata-mata, competitivo, etc.
+        Os servidores 128 são disponibilizados por plataformas privadas, tais como a Gamers Club, FACEIT,
+        CEVO, ESEA, Esportal.
+    </string>
+    <string name="label_tick_9">
+        Se o tick 128 é melhor, por que existe o 64?
+    </string>
+    <string name="label_tick_10">
+        Questão de dinheiro. A valve dá suporte a TODOS os jogadores de CS:GO, ou seja, todos que tem
+        o jogo, podem jogar em sua plataforma, voltando ao comparativo do fps-tick, é como se a valve
+        que hoje entrega 64 fps, começasse a entregar 128, ou seja, o DOBRO do serviço que ela entrega.
+        Isso dobraria o processamento nos servidores, conseguentemente a valve gastaria mais com isso.
+    </string>
+    <string name="label_tick_11">
+        Outro argumento da valve, é que nem todo munto joga com mais de 128 fps, ou seja, se nem seu
+        jogo consegue atualizar 128 vezes por segundo, o que adiantaria a valve atualizar 128 vezes?
+    </string>
+    <string name="label_tick_spoiler">
+        Não quer ler tudo? Resumo: Nem toda smoke em 64 tick funciona em 128 tick e vice-versa.
+    </string>
 </resources>
